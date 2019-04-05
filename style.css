@@ -1,0 +1,12 @@
+body{
+    background-image: url("/images/paint.jpg");
+    background-size: cover;
+}
+#get-started{
+    text-align: center;
+    padding-top: 25%;
+}
+.left-buttons{
+    margin-top: .5%;
+    margin-left: 80%;
+}

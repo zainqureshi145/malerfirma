@@ -6,12 +6,51 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
 
 <body>
     <div class="left-buttons">
-        <a class="btn btn-outline-primary" href="/index.html">Malerfirmakøbenhavn</a>
-        <a class="btn btn-outline-dark" href="/contact.html">Contact Us</a>
+        <a id="maler" class="btn btn-outline-primary" href="/index.html">Malerfirmakøbenhavn</a>
+        <h4 id="Contact" href="/contact.html">Contact Us</h4>
     </div>
+
+    <div id="username" class="col-lg-4">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                aria-describedby="basic-addon1" required>
+        </div>
+    </div>
+
+    <div id="email" class="col-lg-4">
+        <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Email Address" aria-label="Recipient's username"
+                aria-describedby="basic-addon2" required>
+            <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2">@example.com</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="text" class="col-lg-4">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Message</span>
+            </div>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+    </div>
+
+    <div id="send" class="col-lg-4">
+        <form method="GET" action="contact.html">
+            <button type="submit" class="btn btn-outline-dark">Send</button>
+        </form>
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
